@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.videopadding {
+	padding-bottom: 100%;
+}
+
+@media (min-width: 527px) {
+	.videopadding {
+		padding-bottom: 472px;
+	}
+}
